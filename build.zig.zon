@@ -1,0 +1,15 @@
+.{
+    .name = .forBlender,
+    .version = "0.1.0",
+    .fingerprint = 0x9d0afbabb31c6648,
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+    .dependencies = .{
+        .foragent = .{
+            .path = "../forAgent",
+        },
+    },
+}
