@@ -54,4 +54,14 @@ test {
     _ = @import("tools/import_usd.zig");
     _ = @import("tools/configure_sim.zig");
     _ = @import("tools/set_render_settings.zig");
+    _ = @import("tools/mesh_decimate.zig");
+    _ = @import("tools/mesh_smooth.zig");
+    _ = @import("tools/compute_normals.zig");
+    _ = @import("tools/voxelize.zig");
+    _ = @import("tools/auto_uv.zig");
+    _ = @import("tools/subdivide.zig");
+    _ = @import("tools/cloth_sim.zig");
+    _ = @import("tools/sph_fluid.zig");
+    _ = @import("tools/fracture.zig");
+    _ = @import("tools/hair_sim.zig");
 }
